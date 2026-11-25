@@ -2,7 +2,7 @@
 
 > Objectif : Créer une configuration Compose pour un site web Drupal CMS local
 
-- Créez un fichier docker-compose.yml dans ce répertoire vide.
+- Créez un fichier docker-compose.yml dans ce répertoire vide.docker rm -f NOM_OU_ID
 - Utilisez l'image `drupal:10-apache` avec l'image `postgres:16`.
 - Utilisez `ports` pour exposer Drupal sur le port 8081 (ou votre port préféré).
 - Définissez la variable d'environnement POSTGRES_PASSWORD pour le service postgres.
